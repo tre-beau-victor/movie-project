@@ -1,5 +1,5 @@
 "use strict";
-
+//////////////////////// global /////////////////////////////////////////
 const DOMAIN = "http://localhost:3000/movies";
 
 const getMovie = async (id) => {
@@ -8,24 +8,42 @@ const getMovie = async (id) => {
     return movie;
 }
 
+
+
+
+
+
+
+
+////////////////////// functions ///////////////////////////////////////
 const createMovie = async () => {
     const options = {
         method: 'POST',
         headers: {
-            'Content-Type': 'applications/json'
+            'Content-Type': 'application/json'
         },
-        body: JSON.stringify(chicken)
+        body: JSON.stringify()
     };
     const response = await fetch(`${DOMAIN}`, options);
     const apiResponse = await response.json();
     return apiResponse;
 }
 
-const chicken = {
-    title: "chicken little",
-    genre: "akfbarugraevgak",
-    rating: 5
-}
+const editMovie = async () => {
+    const options = {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify()
+    };
+    const response = await fetch(`${DOMAIN}/${}`, options);
+    const apiResponse = response.json();
+    return apiResponse;
+};
+
+console.log(editMovie)
+
 
 
 
