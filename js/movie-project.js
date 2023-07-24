@@ -12,16 +12,20 @@ const createMovie = async () => {
     const options = {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'applications/json'
         },
-        body: JSON.stringify()
+        body: JSON.stringify(chicken)
     };
-    console.log(options)
     const response = await fetch(`${DOMAIN}`, options);
     const apiResponse = await response.json();
     return apiResponse;
 }
 
+const chicken = {
+    title: "chicken little",
+    genre: "akfbarugraevgak",
+    rating: 5
+}
 
 
 
