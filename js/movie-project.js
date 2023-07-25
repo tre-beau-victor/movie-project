@@ -67,13 +67,14 @@ const deleteMovie = async (id) => {
 
 
 
-const renderMovie = async (movieParam) => {
+const renderMovie = async (movies) => {
     const movieDiv = document.querySelector('#movies');
-movieParam.forEach(movie => {
+    console.log(movies)
+movies.forEach(movie => {
     const card = document.createElement('div');
     card.classList.add('movie-card');
     card.innerHTML = `
-         <img src="" />
+         <img src=""/>
         <h2>${movie.title}</h2>
         <button class="btn delete">DELETE</button>
     `;
@@ -82,10 +83,10 @@ movieParam.forEach(movie => {
         await deleteMovie(movie.id);
         card.remove();
     });
+});
 
-})
+}
 
-};
 
 
 
@@ -111,12 +112,11 @@ movieParam.forEach(movie => {
 
 ///////////////////////////////// IFFE ///////////////////
 (async () => {
-    createMovie();
-    renderMovie();
-
     const movies = await getMovie();
+
+    createMovie(movies);
     console.log(movies)
-    renderMovie()
+    renderMovie(movies)
 
 
 
