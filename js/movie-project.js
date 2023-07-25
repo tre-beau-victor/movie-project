@@ -69,13 +69,14 @@ const deleteMovie = async (id) => {
 
 const renderMovie = async (movies) => {
     const movieDiv = document.querySelector('#movies');
-    console.log(movies)
 movies.forEach(movie => {
     const card = document.createElement('div');
     card.classList.add('movie-card');
     card.innerHTML = `
          <img src=""/>
         <h2>${movie.title}</h2>
+        <h5>${movie.genre}</h5>
+        <h5>${movie.rating}</h5>
         <button class="btn delete">DELETE</button>
     `;
     const deleteBtn = card.querySelector('.btn.delete');
@@ -83,8 +84,9 @@ movies.forEach(movie => {
         await deleteMovie(movie.id);
         card.remove();
     });
+    document.querySelector('#movies').appendChild(card);
+    return card
 });
-
 }
 
 
@@ -115,7 +117,6 @@ movies.forEach(movie => {
     const movies = await getMovie();
 
     createMovie(movies);
-    console.log(movies)
     renderMovie(movies)
 
 
