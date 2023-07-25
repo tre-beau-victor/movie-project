@@ -85,25 +85,43 @@ const deleteMovie = async (id) => {
 const renderMovie = async (movies) => {
     document.querySelector('#movies').innerHTML = ""
     const movieDiv = document.querySelector('#movies');
-movies.forEach(movie => {
-    const card = document.createElement('div');
-    card.classList.add('movie-card');
-    card.innerHTML = `
+    movies.forEach(movie => {
+        const card = document.createElement('div');
+        card.classList.add('movie-card');
+        card.innerHTML = `
          <img src=""/>
         <h2>${movie.title}</h2>
         <h5>${movie.genre}</h5>
         <h5>${movie.rating}</h5>
-        <button class="btn delete">DELETE</button>
+        <div class="review">
+                <textarea class="review-input" placeholder="Enter your review"></textarea>
+                <button class="btn submit-review">SUBMIT</button>
+            </div>
+            <button class="btn delete">DELETE</button>
+            <div class="movie-review">${movie.review || ""}</div>
     `;
-    const deleteBtn = card.querySelector('.btn.delete');
-    deleteBtn.addEventListener('click', async () => {
-        await deleteMovie(movie.id);
-        card.remove();
+        const deleteBtn = card.querySelector('.btn.delete');
+        deleteBtn.addEventListener('click', async () => {
+            await deleteMovie(movie.id);
+            card.remove();
+        });
+        const submitBtn = card.querySelector('.btn.submit-review');
+        submitBtn.addEventListener('click', async () => {
+            const reviewInput = card.querySelector('.review-input')
+            const review = reviewInput.value;
+            // Here you can add code to save the review to your backend or do something else with it.
+            movie.review = review; // Save the review in the movie object
+            const movieReviewDiv = card.querySelector('.movie-review');
+            movieReviewDiv.textContent = review; // Display the review in the card
+            reviewInput.value = "";
+        });
+        document.querySelector('#movies').appendChild(card);
+        return card
     });
-    document.querySelector('#movies').appendChild(card);
-    return card
-});
 }
+
+
+
 
 
     renderMovie(movies);
