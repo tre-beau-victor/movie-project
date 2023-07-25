@@ -91,7 +91,7 @@ const createMovie = async (movie) => {
             const card = document.createElement('div');
             card.classList.add('movie-card');
             card.innerHTML = `
-            <img src=""/>
+            <img src="${movie.images}"/>
             <h2>${movie.title}</h2>
             <h5>${movie.genre}</h5>
             <h5>${movie.rating}</h5>
