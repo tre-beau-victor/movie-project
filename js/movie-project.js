@@ -108,10 +108,7 @@ movies.forEach(movie => {
 
     renderMovie(movies);
 
-const filterMovies = (movies, search) => {
-    console.log(movies)
-    return movies.filter(movie => movie.title.includes(search))
-}
+
 // const filteredMovies = filterMovies(movies, searchQuery)
 //     console.log(searchQuery)
 // console.log(filteredMovies);
