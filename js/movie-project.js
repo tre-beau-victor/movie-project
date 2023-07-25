@@ -1,5 +1,6 @@
 "use strict";
 //////////////////////// global /////////////////////////////////////////
+(async () => {
 const DOMAIN = "http://localhost:3000/movies";
 
 const getMovie = async () => {
@@ -8,7 +9,19 @@ const getMovie = async () => {
     return movies;
 }
 
+const movies =  await getMovie();
 
+
+
+
+const searchQuery = document.getElementById('movie-searchbar');
+const searchResultsDiv = document.getElementById('searchResults');
+
+searchQuery.addEventListener('input', () => {
+    const searchTerm = searchQuery.value.trim();
+    filterMovies(movies, searchQuery.value)
+    searchResultsDiv.textContent = `Your movie results are ${searchTerm}`;
+})
 
 
 
@@ -92,7 +105,13 @@ movies.forEach(movie => {
 
 
 
-
+const filterMovies = (movies, search) => {
+    console.log(movies)
+    return movies.filter(movie => movie.title.includes(search))
+}
+const filteredMovies = filterMovies(movies, searchQuery)
+    console.log(searchQuery)
+console.log(filteredMovies);
 
 
 
@@ -109,15 +128,15 @@ movies.forEach(movie => {
 //     const
 // }
 
-
+createMovie(movies);
+renderMovie(movies);
 
 
 ///////////////////////////////// IFFE ///////////////////
-(async () => {
-    const movies = await getMovie();
 
-    createMovie(movies);
-    renderMovie(movies)
+
+
+
 
 
 
