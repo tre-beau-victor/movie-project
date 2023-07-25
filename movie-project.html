@@ -18,6 +18,22 @@
     <input id="movie-searchbar" type="text" placeholder="Search.." name="search">
     <div id="searchResults"></div>
 </form>
+<!--user add movie-->
+<div class="movie-card">
+    <h3>Add a New Movie</h3>
+    <form id="addMovieForm">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" required>
+
+        <label for="rating">Rating:</label>
+        <input type="number" step="0.1" min="0" max="5" id="rating" required>
+
+        <button type="submit">Add Movie</button>
+    </form>
+</div>
 <div id="movies">
 <!--<img class="movie-image" src="movie1.jpg" alt="Movie 1">-->
 
