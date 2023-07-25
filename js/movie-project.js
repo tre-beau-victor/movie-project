@@ -109,11 +109,25 @@ movies.forEach(movie => {
     renderMovie(movies);
 
 
-// const filteredMovies = filterMovies(movies, searchQuery)
+//     const filterMovies = (movies, search) => {
+//         console.log(movies)
+//         return movies.filter(movie => movie.title.includes(search))
+//     }
+//
+// // const filterMovies = (movies, search) => {console.log(movies)
+// //     return movies.filter(movie => movie.title.includes(search))}
+//
+//  const filteredMovies = filterMovies(movies, searchQuery)
 //     console.log(searchQuery)
-// console.log(filteredMovies);
+//     console.log(filteredMovies);
 
-
+    const filterMovies = (movies, search) => {
+        console.log(movies)
+        return movies.filter(movie => movie.title.includes(search))
+    }
+    const filteredMovies = filterMovies(movies, searchQuery)
+    console.log(searchQuery)
+    console.log(filteredMovies);
 
 
 
@@ -128,25 +142,14 @@ movies.forEach(movie => {
 //     const
 // }
 
-// createMovie(movies);
-// renderMovie(movies);
+
+renderMovie(movies);
 
 
 ///////////////////////////////// IFFE ///////////////////
 
-    const newMovie = {
-        title: "The New Movie",
-        genre: "Action",
-        rating: 4.6
-    };
 
-    createMovie(newMovie)
-        .then(createdMovie => {
-            console.log("New movie created:", createdMovie);
-        })
-        .catch(error => {
-            console.error("Error creating the movie:", error);
-        });
+
 
 
 
