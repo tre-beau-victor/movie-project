@@ -17,9 +17,10 @@ const movies =  await getMovie();
 const searchQuery = document.getElementById('movie-searchbar');
 const searchResultsDiv = document.getElementById('searchResults');
 
-searchQuery.addEventListener('input', () => {
+searchQuery.addEventListener('keyup', () => {
     const searchTerm = searchQuery.value.trim();
-    filterMovies(movies, searchQuery.value)
+    const filteredMovieList = filterMovies(movies, searchQuery.value);
+    renderMovie(filteredMovieList);
     searchResultsDiv.textContent = `Your movie results are ${searchTerm}`;
 })
 
@@ -29,14 +30,15 @@ searchQuery.addEventListener('input', () => {
 ////////////////////// functions ///////////////////////////////////////
 
 
-const createMovie = async () => {
+const createMovie = async (movie) => {
     const options = {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify()
+        body: JSON.stringify(movie)
     };
+    console.log(options)
     const response = await fetch(`${DOMAIN}`, options);
     const apiResponse = await response.json();
     return apiResponse;
@@ -81,6 +83,7 @@ const deleteMovie = async (id) => {
 
 
 const renderMovie = async (movies) => {
+    document.querySelector('#movies').innerHTML = ""
     const movieDiv = document.querySelector('#movies');
 movies.forEach(movie => {
     const card = document.createElement('div');
@@ -103,12 +106,9 @@ movies.forEach(movie => {
 }
 
 
+    renderMovie(movies);
 
 
-// const filterMovies = (movies, search) => {
-//     console.log(movies)
-//     return movies.filter(movie => movie.title.includes(search))
-// }
 // const filteredMovies = filterMovies(movies, searchQuery)
 //     console.log(searchQuery)
 // console.log(filteredMovies);
@@ -128,12 +128,25 @@ movies.forEach(movie => {
 //     const
 // }
 
-createMovie(movies);
-renderMovie(movies);
+// createMovie(movies);
+// renderMovie(movies);
 
 
 ///////////////////////////////// IFFE ///////////////////
 
+    const newMovie = {
+        title: "The New Movie",
+        genre: "Action",
+        rating: 4.6
+    };
+
+    createMovie(newMovie)
+        .then(createdMovie => {
+            console.log("New movie created:", createdMovie);
+        })
+        .catch(error => {
+            console.error("Error creating the movie:", error);
+        });
 
 
 
