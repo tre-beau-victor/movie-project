@@ -143,7 +143,7 @@ movies.forEach(movie => {
 // }
 
 
-renderMovie(movies);
+renderMovie(movies)
 
 
 ///////////////////////////////// IFFE ///////////////////
