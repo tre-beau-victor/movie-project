@@ -1,58 +1,25 @@
 {
   "movies": [
     {
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "genre": "Action, Adventure, Drama",
-      "rating": 4.9,
-      "reviews": [
-        "hello",
-        "no"
-      ],
-      "id": 10
-    },
-    {
-      "title": "The Silence of the Lambs",
-      "genre": "Crime, Drama, Thriller",
-      "rating": 4.7,
-      "reviews": [
-        "",
-        "hello",
-        "this was good"
-      ],
-      "id": 11
-    },
-    {
-      "id": 12,
-      "title": "Gladiator",
-      "genre": "Action, Adventure, Drama",
-      "rating": 4.6,
-      "reviews": []
-    },
-    {
       "id": 13,
       "title": "The Departed",
       "genre": "Crime, Drama, Thriller",
       "rating": 4.5,
-      "reviews": []
-    },
-    {
-      "id": 14,
-      "title": "The Prestige",
-      "genre": "Drama, Mystery, Sci-Fi",
-      "rating": 4.7
+      "review": ""
     },
     {
       "title": "Interstellar",
       "genre": "Adventure, Drama, Sci-Fi",
       "rating": 4.8,
-      "reviews": [],
+      "review": "",
       "id": 15
     },
     {
-      "id": 16,
-      "title": "The Green Mile",
-      "genre": "Crime, Drama, Fantasy",
-      "rating": 4.6
+      "title": "hello",
+      "genre": "pleasae",
+      "rating": 0.4,
+      "review": "",
+      "id": 16
     }
   ]
 }
