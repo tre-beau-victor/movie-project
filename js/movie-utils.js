@@ -148,38 +148,6 @@ export const renderMovie = async (movies) => {
 
         });
 
-        // reviewForm.addEventListener('submit', async (e) => {
-        //     console.log("inside reviewform submit event listener");
-        //     e.preventDefault();
-        //     const reviewInput = card.querySelector('.review-input');
-        //     const review = reviewInput.value.trim();
-        //
-        //     if (review !== "") {
-        //         const movieReviewsDiv = card.querySelector('.movie-reviews');
-        //         const newReviewDiv = document.createElement('div');
-        //         newReviewDiv.classList.add('movie-review');
-        //         newReviewDiv.textContent = review;
-        //         movieReviewsDiv.appendChild(newReviewDiv);
-        //         reviewInput.value = "";
-        //
-        //
-        //         // Get the movie ID from the parent card element
-        //         const movieId = movie.id;
-        //
-        //         // Update the reviews in the movies array
-        //         const movieIndex = movies.findIndex(movie => movie.id === movieId);
-        //         if (movieIndex !== -1) {
-        //             if (!movies[movieIndex].reviews) {
-        //                 movies[movieIndex].reviews = []; // Initialize the "reviews" array if not present
-        //             }
-        //             movies[movieIndex].reviews.push(review); // Add the new review to the "reviews" array
-        //         }
-        //
-        //         // Call the editMovie function to update the reviews in the JSON data
-        //         const {title, genre, rating, reviews} = movies[movieIndex];
-        //         await editMovie(movieId, title, genre, rating, reviews);
-        //     }
-        // });
 
 
         const deleteReviewsBtn = card.querySelector('.btn.delete-reviews');

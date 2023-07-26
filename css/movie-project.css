@@ -12,8 +12,20 @@ h1 {
 
 
 body {
-    background-color: #442678;
-    animation: darkenBackground 10s infinite;
+
+}
+
+div.background-image {
+    background-image: url("https://thinkml.ai/content/images/2023/01/Movies-about-AI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 
@@ -245,4 +257,6 @@ button.review-submit {
 .card-content p {
     margin-bottom: 0;
 }
+
+
 
