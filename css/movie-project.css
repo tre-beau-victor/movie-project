@@ -122,6 +122,24 @@ textarea {
     padding: 10px;
 }
 
+.card-example {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 50%;*/
+    /*height: 50%;*/
+    object-fit: cover;
+}
 
 
 
