@@ -16,13 +16,15 @@ body {
     background-color: #f9f9f9;
 }
 
-
 .movie-card {
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
+
+.movie-card .row {
+    flex: 1 0 0;
+}
+
 
 .movie-card h3 {
     margin-top: 0;
@@ -88,6 +90,11 @@ textarea {
     border-radius: 4px;
 }
 
+.review {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Style for the "Submit" button */
 .btn.submit-review {
     background-color: #007bff;
@@ -106,7 +113,28 @@ textarea {
     color: #000;
 }
 
-
+.add-movie {
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 10px;
+}
+textarea.review-input {
+    padding-right: 30px;
+}
+button.review-submit {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #b0b0b0;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+}
 
 
 /* Add this CSS to your stylesheet or in a <style> tag in your HTML */
@@ -114,33 +142,47 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* Adjust this value to set the spacing between movie cards */
+    margin-top: 2rem;
 }
 
 .movie-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each card (three cards per row in this case) */
     border: 1px solid #ccc;
+    border-radius: 1rem;
     padding: 10px;
 }
 
 .card-example {
-    width: 50%;
-    height: 50%;
-    border: 1px solid #ccc;
-    background-color: #f0f0f0;
-    position: relative;
-    overflow: hidden;
+    display: flex; /* Use flexbox to create a row of images */
+
 }
 
+
+
+
+
+.card {
+    width: 300px; /* Set the width of the card */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; /* This ensures that any content overflowing the card will be hidden */
+}
 
 .card-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    /*width: 50%;*/
-    /*height: 50%;*/
-    object-fit: cover;
+    width: 100%; /* Make the image stretch to fit the card's width */
+    height: auto; /* Keep the image's aspect ratio */
+    display: block;
 }
 
+.card-content {
+    padding: 20px;
+}
 
+.card-content h2 {
+    margin-top: 0;
+}
 
+.card-content p {
+    margin-bottom: 0;
+}
 
