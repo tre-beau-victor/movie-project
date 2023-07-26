@@ -1,0 +1,407 @@
+
+{
+  "movies": [
+
+      {
+        "images": "https://flxt.tmsimg.com/assets/p28828_p_v10_am.jpg",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "genre": "Action, Adventure, Drama",
+        "rating": 4.9,
+        "reviews": [],
+        "id": 10
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BZGFjOTRiYjgtYjEzMS00ZjQ2LTkzY2YtOGQ0NDI2NTVjOGFmXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_.jpg",
+        "title": "Inception",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 11
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/512G9J05RJL._AC_UF1000,1000_QL80_.jpg",
+        "title": "The Shawshank Redemption",
+        "genre": "Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 12
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/91KkWf50SoL._AC_UF894,1000_QL80_.jpg",
+        "title": "The Dark Knight",
+        "genre": "Action, Crime, Drama",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 13
+      },
+      {
+        "images": "https://www.miramax.com/assets/Pulp-Fiction1.png",
+        "title": "Pulp Fiction",
+        "genre": "Crime, Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 14
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "title": "Interstellar",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "rating": 4.9,
+        "reviews": [],
+        "id": 109
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "title": "The Godfather",
+        "genre": "Crime, Drama",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 110
+      },
+      {
+        "images": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5711/5711177_so.jpg",
+        "title": "Forrest Gump",
+        "genre": "Drama, Romance",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 111
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Matrix",
+        "genre": "Action, Sci-Fi",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 112
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+        "title": "Avatar",
+        "genre": "Action, Adventure, Fantasy",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 113
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/51GA6V6VE1L._AC_UF894,1000_QL80_.jpg",
+        "title": "Gladiator",
+        "genre": "Action, Adventure, Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 114
+      },
+      {
+        "images": "https://kinolorber.com/media_cache/userFiles/uploads/products/silence-of-the-lambs-30th-anniversary-no-slipcase/full/738329255831_w:o_ocard.jpg",
+        "title": "The Silence of the Lambs",
+        "genre": "Crime, Drama, Thriller",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 115
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "title": "The Avengers",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 116
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_.jpg",
+        "title": "The Lion King",
+        "genre": "Animation, Adventure, Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 117
+      },
+      {
+        "images": "https://images.sr.roku.com/idType/roku/context/global/id/40b6f11aa31959ed99059014faf5b4ba/images/gracenote/assets/p162564_v_v11_ak.jpg/magic/396x0/filters:quality(70)",
+        "title": "The Departed",
+        "genre": "Crime, Drama, Thriller",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 118
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+        "title": "The Pianist",
+        "genre": "Biography, Drama, Music",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 119
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_FMjpg_UX1000_.jpg",
+        "title": "Avengers: Infinity War",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 120
+      },
+      {
+        "images": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png",
+        "title": "The Social Network",
+        "genre": "Biography, Drama",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 121
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_FMjpg_UX1000_.jpg",
+        "title": "Django Unchained",
+        "genre": "Drama, Western",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 122
+      },
+      {
+        "images": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png",
+        "title": "The Wolf of Wall Street",
+        "genre": "Biography, Crime, Drama",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 123
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMDE5OWMzM2QtOTU2ZS00NzAyLWI2MDEtOTRlYjIxZGM0OWRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+        "title": "The Revenant",
+        "genre": "Action, Adventure, Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 124
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "title": "Whiplash",
+        "genre": "Drama, Music",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 125
+      },
+      {
+        "images": "https://vice-press.com/cdn/shop/files/mad-max-fury-road-poster-matt-ferguson.jpg?v=1689066490&width=1024",
+        "title": "Mad Max: Fury Road",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 126
+      },
+      {
+        "images": "https://resizing.flixster.com/5hujVgEBlIlAiTmnGQqMOAH3txs=/206x305/v2/https://flxt.tmsimg.com/assets/p24429_p_v12_bf.jpg",
+        "title": "The Green Mile",
+        "genre": "Crime, Drama, Fantasy",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 127
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "title": "Shutter Island",
+        "genre": "Mystery, Thriller",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 128
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_.jpg",
+        "title": "The Prestige",
+        "genre": "Drama, Mystery, Sci-Fi",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 129
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Martian",
+        "genre": "Adventure, Drama, Sci-Fi",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 130
+      },
+      {
+        "images": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/238/2023/05/27120523/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+        "title": "The Grand Budapest Hotel",
+        "genre": "Adventure, Comedy, Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 131
+      },
+      {
+        "images": "https://www.literarytraveler.com/wp-content/uploads/2015/01/Gone-Girl1.jpg",
+        "title": "Gone Girl",
+        "genre": "Drama, Mystery, Thriller",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 132
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_FMjpg_UX1000_.jpg",
+        "title": "Blade Runner 2049",
+        "genre": "Action, Drama, Sci-Fi",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 133
+      },
+      {
+        "images": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png",
+        "title": "The Imitation Game",
+        "genre": "Biography, Drama, Thriller",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 134
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/81h0BsqKk4L._AC_UF894,1000_QL80_.jpg",
+        "title": "The Big Short",
+        "genre": "Biography, Comedy, Drama",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 135
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/81GW8loPVJL._AC_UF1000,1000_QL80_.jpg",
+        "title": "Jurassic Park",
+        "genre": "Action, Adventure, Sci-Fi",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 138
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "title": "Fight Club",
+        "genre": "Drama",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 139
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_FMjpg_UX1000_.jpg",
+        "title": "Inglourious Basterds",
+        "genre": "Adventure, Drama, War",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 140
+      },
+      {
+        "images": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png",
+        "title": "The Sixth Sense",
+        "genre": "Drama, Mystery, Thriller",
+        "rating": 4.6,
+        "reviews": [],
+        "id": 141
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/81+H4lZVw+L._AC_UF894,1000_QL80_.jpg",
+        "title": "Schindler's List",
+        "genre": "Biography, Drama, History",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 146
+      },
+      {
+        "images": "https://images.moviesanywhere.com/45bc0ec075bfc0b4d8f184a7cc5bf993/876ed805-83b1-4387-b0d0-62d08c36536d.jpg",
+        "title": "The Lord of the Rings: The Return of the King",
+        "genre": "Action, Adventure, Drama",
+        "rating": 4.9,
+        "reviews": [],
+        "id": 148
+      },
+      {
+        "images": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Saving_Private_Ryan_poster.jpg/220px-Saving_Private_Ryan_poster.jpg",
+        "title": "Saving Private Ryan",
+        "genre": "Drama, War",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 152
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+        "title": "The Usual Suspects",
+        "genre": "Crime, Drama, Mystery",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 168
+      },
+      {
+        "images": "https://flxt.tmsimg.com/assets/p40_p_v10_ap.jpg",
+        "title": "The Shining",
+        "genre": "Drama, Horror",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 169
+      },
+      {
+        "images": "https://static.tvtropes.org/pmwiki/pub/images/image_0482.jpeg",
+        "title": "The Intouchables",
+        "genre": "Biography, Comedy, Drama",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 170
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "title": "The Terminator",
+        "genre": "Action, Sci-Fi",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 171
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+        "title": "The Truman Show",
+        "genre": "Comedy, Drama, Sci-Fi",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 173
+      },
+      {
+        "images": "https://upload.wikimedia.org/wikipedia/commons/b/b3/CasablancaPoster-Gold.jpg",
+        "title": "Casablanca",
+        "genre": "Drama, Romance, War",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 174
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "title": "City of God",
+        "genre": "Crime, Drama",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 179
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_FMjpg_UX1000_.jpg",
+        "title": "Dunkirk",
+        "genre": "Action, Drama, History",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 180
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+        "title": "Se7en",
+        "genre": "Crime, Drama, Mystery",
+        "rating": 4.7,
+        "reviews": [],
+        "id": 182
+      },
+      {
+        "images": "https://m.media-amazon.com/images/I/71G7AybM3qL._AC_UF894,1000_QL80_.jpg",
+        "title": "Eternal Sunshine of the Spotless Mind",
+        "genre": "Drama, Romance, Sci-Fi",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 184
+      },
+      {
+        "images": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Lord of the Rings: The Two Towers",
+        "genre": "Action, Adventure, Drama",
+        "rating": 4.8,
+        "reviews": [],
+        "id": 186
+      }
+  ]
+}
+

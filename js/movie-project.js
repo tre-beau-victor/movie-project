@@ -54,16 +54,23 @@ const deleteMovie = async (id) => {
     const apiResponse = response.json();
     return apiResponse;
 };
-const renderMovie = async (movies) => {
-    document.querySelector('#movies').innerHTML = "";
-    const movieDiv = document.querySelector('#movies');
 
-    movies.forEach(movie => {
-        console.log(movie)
-        const card = document.createElement('div');
-        card.classList.add('movie-card');
-        card.innerHTML = `
-            <img src=""/>
+
+
+
+
+
+    const renderMovie = async (movies) => {
+        document.querySelector('#movies').innerHTML = "";
+        const movieDiv = document.querySelector('#movies');
+
+        movies.forEach(movie => {
+            console.log(movie)
+            const card = document.createElement('div');
+            card.classList.add('movie-card');
+            card.innerHTML = `
+            <img src="${movie.images}"/>
+
             <h2>${movie.title}</h2>
             <h5>Genre:</h5> ${movie.genre}
             <h5>Rating:</h5> ${movie.rating}
