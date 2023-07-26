@@ -38,6 +38,10 @@ div.background-image {
     background-color: #f9f9f9;
 }
 
+.test {
+    color: white;
+}
+
 .movie-card {
     display: flex;
     flex-direction: column;
@@ -110,6 +114,7 @@ div.background-image {
     margin-top: 5px;
     border-radius: 1rem;
     background-color: #3f3f3f;
+    color: white;
     border: none;
 }
 
@@ -157,6 +162,7 @@ textarea {
     border-radius: 1rem;
     width: 100%;
     background-color: rgb(63,63,63);
+    color: white;
 }
 
 
@@ -248,6 +254,7 @@ button.review-submit {
     overflow: hidden; /* This ensures that any content overflowing the card will be hidden */
     background-color: #3F3F3F;
     border: none;
+    color: white;
 }
 
 .card-image {
