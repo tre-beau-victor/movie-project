@@ -69,8 +69,9 @@ const deleteMovie = async (id) => {
             const card = document.createElement('div');
             card.classList.add('movie-card');
             card.innerHTML = `
-            <img src="${movie.images}"/>
-
+            <div class="card-example">
+            <img class="card-image" src="${movie.images}"/>
+            </div>
             <h2>${movie.title}</h2>
             <h5>Genre:</h5> ${movie.genre}
             <h5>Rating:</h5> ${movie.rating}
