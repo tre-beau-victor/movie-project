@@ -41,7 +41,6 @@ export const deleteMovie = async (id) => {
     const apiResponse = response.json();
     return apiResponse;
 };
-
 export const deleteReviews = async (movie) => {
     // do a fetch request to localhost/movies/${movie.id}
     // method 'PATCH'
@@ -96,8 +95,8 @@ export const renderMovie = async (movies) => {
                 </form>
              
                 <div class="d-flex align-items-center justify-content-between gap-2 mt-2">
-                    <button class="btn delete-reviews">DELETE REVIEWS</button>
-                    <button class="btn delete-movie">DELETE MOVIE</button>
+                    <button class="btn delete-reviews hover-button">DELETE REVIEWS</button>
+                    <button class="btn delete-movie hover-button">DELETE MOVIE</button>
                 </div>
               </div>
             </div>

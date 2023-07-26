@@ -11,9 +11,8 @@ h1 {
 }
 
 
-body {
 
-}
+
 
 div.background-image {
     background-image: url("https://thinkml.ai/content/images/2023/01/Movies-about-AI.jpg");
@@ -42,6 +41,9 @@ div.background-image {
 .movie-card {
     display: flex;
     flex-direction: column;
+    background-color: #282828;
+    color: #ffffff;
+    border: none!important;
 }
 
 .movie-card .row {
@@ -74,16 +76,17 @@ div.background-image {
 .add-movie-card {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 30rem;
-    margin: 2rem auto; /* Added margin-top of 2rem and centered horizontally */
-    border: none; /* Added a border */
-    border-radius: 3rem; /* Added border radius of 3rem */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added box shadow */
-    padding: 20px; /* Added padding to keep the text inside the box */
-    background-color: white;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #282828;
+    color: #3f3f3f;
 }
 
 .add-movie-card .row {
@@ -92,11 +95,13 @@ div.background-image {
 
 .add-movie-card h3 {
     margin-top: 0;
+    color: #ffffff;
 }
 
 .add-movie-card form label {
     display: block;
     margin-top: 10px;
+    color: #ffffff;
 }
 
 .add-movie-card form input {
@@ -104,6 +109,8 @@ div.background-image {
     padding: 5px;
     margin-top: 5px;
     border-radius: 1rem;
+    background-color: #3f3f3f;
+    border: none;
 }
 
 .add-movie-card form button {
@@ -149,6 +156,7 @@ textarea {
     resize: none;
     border-radius: 1rem;
     width: 100%;
+    background-color: rgb(63,63,63);
 }
 
 
@@ -159,7 +167,8 @@ textarea {
     padding: 8px 16px;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 20px;
+
 }
 
 .review {
@@ -170,19 +179,19 @@ textarea {
 /* Style for the "Submit" button */
 .btn.submit-review {
     background-color: #007bff;
-    color: #fff;
+    color: #858585;
 }
 
 /* Style for the "Delete Movies" button */
 .btn.delete-movie {
-    background-color: #dc3545;
-    color: #fff;
+    background-color: #4d3f4f;
+    color: #858585;
 }
 
 /* Style for the "Delete Reviews" button */
 .btn.delete-reviews {
-    background-color: #ffc107;
-    color: #000;
+    background-color: #4d3f4f;
+    color: #858585;
 }
 
 .add-movie {
@@ -235,9 +244,10 @@ button.review-submit {
 
 .card {
     width: 300px; /* Set the width of the card */
-    border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden; /* This ensures that any content overflowing the card will be hidden */
+    background-color: #3F3F3F;
+    border: none;
 }
 
 .card-image {
@@ -260,3 +270,64 @@ button.review-submit {
 
 
 
+
+.button {
+    position: relative!important;
+    overflow: hidden!important;
+    height: 3rem!important;
+    padding: 0 2rem!important;
+    border-radius: 1.5rem!important;
+    background: #3d3a4e!important;
+    background-size: 400%!important;
+    color: #fff!important;
+    border: none!important;
+}
+
+.button:hover::before {
+    transform: scaleX(1)!important;
+}
+
+.button-content {
+    position: relative!important;
+    z-index: 1!important;
+}
+
+.button::before {
+    content: ''!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0;
+    transform: scaleX(0)!important;
+    transform-origin: 0 50%!important;
+    width: 100%!important;
+    height: inherit!important;
+    border-radius: inherit!important;
+    background: linear-gradient(
+            82.3deg,
+            rgba(150, 93, 233, 1) 10.8%,
+            rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s!important;
+}
+
+
+
+
+
+/* Basic button styles */
+.hover-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.hover-button:hover {
+    background-color: #847286; /* Change the background color on hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a box-shadow on hover */
+    transform: scale(1.1); /* Scale up the button slightly on hover */
+}
